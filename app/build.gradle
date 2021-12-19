@@ -60,10 +60,4 @@ dependencies {
 
     //Timber replace Log
     implementation 'com.jakewharton.timber:timber:4.7.1'
-
-    // Koin
-    def koin_version_v3= "3.1.4"
-    implementation "io.insert-koin:koin-core:$koin_version_v3"
-    implementation "io.insert-koin:koin-android:$koin_version_v3"
-
 }
