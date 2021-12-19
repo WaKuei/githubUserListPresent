@@ -13,7 +13,7 @@ class UserViewModel(private val userRepository: UserRepository) : ViewModel() {
     val mErrorMessage = MutableLiveData<String>()
     private var mHasMore = true
     private val mUserRepositoryCallback = OnUserRepositoryCallback()
-    var mDataList = ArrayList<UserModel>()
+    private var mDataList = ArrayList<UserModel>()
 
     fun getUsers() {
         Timber.d("Reload Users Data! ")
